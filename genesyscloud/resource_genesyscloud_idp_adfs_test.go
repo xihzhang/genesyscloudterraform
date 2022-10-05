@@ -11,7 +11,7 @@ import (
 )
 
 func TestAccResourceIdpAdfs(t *testing.T) {
-	t.Parallel()
+	//t.Parallel()
 	var (
 		uri1            = "https://test.com/1"
 		uri2            = "https://test.com/2"
